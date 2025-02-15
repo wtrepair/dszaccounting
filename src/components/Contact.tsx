@@ -39,8 +39,7 @@ const Contact: FunctionComponent<ContactType> = ({ className = "" }) => {
             <img src="/phone.svg" alt="Contact Icon" className="w-10 h-10" />
           </div>
           <h3 className="font-semibold mt-4">Contact Us</h3>
-          <p className="text-gray-500 text-sm">Email us for general queries, including marketing and partnerships.</p>
-          <p className="font-semibold">info@dineshcpa.com</p>
+          <p className="text-gray-500 text-sm">Email us for general queries, including marketing and partnerships.<b className="block mt-2 text-green-600"> info@dineshcpa.com</b></p>
         </div>
       </div>
       

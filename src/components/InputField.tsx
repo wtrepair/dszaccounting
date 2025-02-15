@@ -25,7 +25,7 @@ export type InputFieldType = {
 
 const InputField: FunctionComponent<InputFieldType> = ({
   className = "",
-  labelText = "Phone number",
+  labelText = "Email",
   showHelperText = false,
   showRightIcon = false,
   showLabel = true,
@@ -46,6 +46,7 @@ const InputField: FunctionComponent<InputFieldType> = ({
   const inputFieldStyle: CSSProperties = useMemo(() => {
     return {
       minWidth: propMinWidth,
+      maxWidth: "100%", // Prevents horizontal overflow
     };
   }, [propMinWidth]);
 
@@ -76,48 +77,40 @@ const InputField: FunctionComponent<InputFieldType> = ({
 
   return (
     <div
-      className={`flex-1 flex flex-col items-start justify-start gap-boundvariablesdata7 text-left text-sm text-gray-500 font-text-xl-font-normal ${className}`}
+      className={`flex-1 flex flex-col items-start justify-start gap-2 text-left text-sm text-gray-500 font-normal ${className}`}
       style={inputFieldStyle}
     >
       {showLabel && (
-        <div
-          className="self-stretch relative leading-[150%] font-medium text-gray-900"
+        <label
+          className="self-stretch text-gray-900 font-medium leading-[150%]"
           style={labelStyle}
         >
           {labelText}
-        </div>
+        </label>
       )}
       <div
-        className="self-stretch rounded-lg bg-gray-50 border-gray-300 border-[1px] border-solid flex flex-row items-center justify-start py-boundvariablesdata11 px-boundvariablesdata4"
+        className="self-stretch rounded-lg bg-gray-50 border-gray-300 border px-3 py-2 flex flex-row items-center justify-start"
         style={inputStyle}
       >
-        <div className="flex-1 flex flex-row items-center justify-start gap-2.5">
-          {showLeftIcon && (
-            <img
-              className="w-boundvariablesdata4 relative h-boundvariablesdata4 overflow-hidden shrink-0 hidden"
-              alt=""
-              src={user1}
-            />
-          )}
-          {showPlaceholder && (
-            <div className="flex-1 relative leading-[125%]">
-              {placeholderText}
-            </div>
-          )}
-          {showRightIcon && (
-            <img
-              className="w-boundvariablesdata11 relative h-boundvariablesdata11 overflow-hidden shrink-0 hidden"
-              alt=""
-              src="/x.svg"
-            />
-          )}
-        </div>
+        {showLeftIcon && user1 && (
+          <img className="w-5 h-5" alt="Icon" src={user1} />
+        )}
+        {showPlaceholder && (
+          <input
+            className="w-full bg-transparent outline-none text-gray-700 placeholder-gray-400"
+            type="text"
+            placeholder={placeholderText}
+          />
+        )}
+        {showRightIcon && (
+          <img className="w-5 h-5 cursor-pointer" alt="Clear" src="/x.svg" />
+        )}
       </div>
       {showHelperText && (
-        <div className="w-[364px] relative leading-[125%]">
-          <span>{`We’ll never share your details. See our `}</span>
+        <p className="w-full text-gray-500 text-xs leading-[125%]">
+          We’ll never share your details. See our{" "}
           <span className="text-gray-900">Privacy Policy.</span>
-        </div>
+        </p>
       )}
     </div>
   );

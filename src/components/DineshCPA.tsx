@@ -20,7 +20,7 @@ export type DineshCPAType = {
 const DineshCPA: FunctionComponent<DineshCPAType> = ({ className = "" }) => {
   return (
     <div
-      className={`relative bg-white flex flex-col items-center justify-start text-17xl text-gray-900 font-text-xl-font-normal ${className}`}
+      className={`relative bg-white flex flex-col items-center justify-start text-17xl text-gray-900 font-text-xl-font-normal overflow-hidden ${className}`}
     >
       <Header />
       <Jumbotron />
@@ -90,7 +90,7 @@ const DineshCPA: FunctionComponent<DineshCPAType> = ({ className = "" }) => {
       <Hero />
       <Container />
       <AboutUs1 />
-      {/* <Carousel /> */}
+      <Carousel />
 
       <GroupComponent />
       <div className="relative w-full flex flex-col items-center justify-start text-17xl text-gray-900">
