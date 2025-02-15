@@ -9,8 +9,8 @@ const Services: FunctionComponent<ServicesType> = ({ className = "" }) => {
     <div
       className={`w-full text-gray-900 font-text-xl-font-normal ${className}`}
     >
-      <div className="bg-white w-full flex flex-col items-center justify-start py-12 px-6 md:px-12 lg:px-20">
-        <div className="w-full max-w-[1280px] flex flex-col items-start justify-start gap-16">
+      <div className="px-4">
+        <div className="w-full max-w-screen-xl mx-auto flex flex-col items-center justify-center gap-16">
           {/* Section 1 - Personal Income Tax Preparation */}
           <div className="flex flex-col lg:flex-row items-center justify-between gap-8 w-full">
             <img

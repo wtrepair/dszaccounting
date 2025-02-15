@@ -10,7 +10,7 @@ const Hero: FunctionComponent<HeroType> = ({ className = "" }) => {
     <div className={`bg-white w-full py-16 px-4 flex flex-col items-center text-center text-gray-900 ${className}`}>
       <div className="max-w-screen-xl flex flex-col items-center justify-center">
         <div className="max-w-3xl flex flex-col items-center gap-6">
-          <h2 className="text-4xl md:text-5xl font-extrabold leading-tight">
+          <h2 className="text-13xl md:text-5xl font-extrabold leading-tight">
             Numbers with Purpose: Building Your Path to Prosperity.
           </h2>
           <p className="text-lg md:text-xl leading-relaxed text-gray-500">

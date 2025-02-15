@@ -17,7 +17,7 @@ const GroupComponent: FunctionComponent<GroupComponentType> = ({
       <div className="w-full text-2xl md:text-4xl font-extrabold underline my-8">
         Latest Posts
       </div>
-      <div className="w-full bg-white flex flex-col items-center p-4 sm:p-8 text-left text-lg">
+      <div className="w-full bg-white flex flex-col items-center text-left text-lg">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full max-w-6xl">
           <BlogCard
             cardHeader="/cardheader@2x.png"

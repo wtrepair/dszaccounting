@@ -13,7 +13,7 @@ const Jumbotron: FunctionComponent<JumbotronType> = ({ className = "" }) => {
       style={{ backgroundImage: "url('/jumbotron@3x.png')" }}
     >
       <div className="max-w-4xl flex flex-col items-center gap-6">
-        <h1 className="text-4xl md:text-17xl lg:text-41xl font-extrabold leading-tight">
+        <h1 className="text-13xl md:text-17xl lg:text-41xl font-extrabold leading-tight">
           Streamlining finances for <br /> individuals, businesses, growth
         </h1>
         <p className="max-w-2xl text-lg md:text-xl leading-relaxed">

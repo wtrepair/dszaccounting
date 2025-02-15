@@ -8,10 +8,10 @@ export type ContainerType = {
 const Container: FunctionComponent<ContainerType> = ({ className = "" }) => {
   return (
     <div className={`w-full bg-white py-16 px-4 flex justify-center ${className}`}>
-      <div className="max-w-screen-xl flex flex-col md:flex-row items-center gap-10">
+      <div className="max-w-screen-xl flex flex-col lg:flex-row items-center gap-10">
         {/* Left Text Content */}
-        <div className="flex-1 flex flex-col items-start gap-4">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 leading-tight">
+        <div className="flex-1 flex flex-col items-start gap-4 px-2 md:px-4">
+          <h2 className="text-13xl md:text-4xl font-extrabold text-gray-900 leading-tight">
             Protect your wealth against economic changes and financial uncertainty.
           </h2>
           <p className="text-lg text-gray-500 leading-relaxed">

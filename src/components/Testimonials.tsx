@@ -49,8 +49,8 @@ const Testimonials: FunctionComponent<TestimonialsType> = ({ className = "" }) =
         </div>
 
         {/* Testimonials */}
-        <div className="w-full max-w-[768px] flex flex-col items-center justify-center text-center">
-          <p className="text-xl md:text-2xl font-semibold text-gray-900 leading-relaxed">
+        <div className="w-full max-w-[768px] flex flex-col items-center justify-center text-center px-6">
+          <p className="text-xl md:text-2xl font-semibold text-gray-900 leading-relaxed italic">
             “{testimonialsData[currentIndex].text}”
           </p>
           <div className="flex flex-row items-center justify-center gap-3 mt-4">
