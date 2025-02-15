@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react";
 
-export type SelectInputType = {
+export type SelectInputProps = {
   className?: string;
   labelText?: string;
   showLabel?: boolean;
@@ -9,7 +9,7 @@ export type SelectInputType = {
   showPlaceholder?: boolean;
 };
 
-const SelectInput: FunctionComponent<SelectInputType> = ({
+const SelectInput: FunctionComponent<SelectInputProps> = ({
   className = "",
   labelText = "Select language",
   showLabel = true,
@@ -18,34 +18,16 @@ const SelectInput: FunctionComponent<SelectInputType> = ({
   showPlaceholder = true,
 }) => {
   return (
-    <div
-      className={`flex-1 flex flex-col items-start justify-start gap-boundvariablesdata7 text-left text-sm text-gray-900 font-text-xl-font-normal ${className}`}
-    >
+    <div className={`flex flex-col gap-2 text-sm text-gray-900 ${className}`}>
       {showLabel && (
-        <div className="self-stretch flex flex-row items-center justify-start gap-boundvariablesdata7">
-          <div className="relative leading-[150%] font-medium">{labelText}</div>
-          {showLabelIcon && (
-            <img
-              className="w-boundvariablesdata11 relative h-boundvariablesdata11 overflow-hidden shrink-0"
-              alt=""
-              src="/info.svg"
-            />
-          )}
+        <div className="flex items-center gap-2">
+          <span className="font-medium">{labelText}</span>
+          {showLabelIcon && <img className="w-4 h-4" alt="info" src="/info.svg" />}
         </div>
       )}
-      <div className="self-stretch rounded-lg bg-gray-50 border-gray-300 border-[1px] border-solid flex flex-col items-start justify-start p-boundvariablesdata11 text-gray-500">
-        <div className="self-stretch flex flex-row items-center justify-start">
-          {showPlaceholder && (
-            <div className="self-stretch flex-1 relative leading-[125%] flex items-center">
-              {placeholderText}
-            </div>
-          )}
-          <img
-            className="w-boundvariablesdata1 relative h-boundvariablesdata1 overflow-hidden shrink-0"
-            alt=""
-            src="/chevrondown1.svg"
-          />
-        </div>
+      <div className="relative w-full bg-gray-50 border border-gray-300 rounded-lg p-2 flex items-center justify-between text-gray-500 cursor-pointer">
+        {showPlaceholder && <span>{placeholderText}</span>}
+        <img className="w-4 h-4" alt="dropdown" src="/chevrondown1.svg" />
       </div>
     </div>
   );

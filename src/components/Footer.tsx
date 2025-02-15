@@ -30,10 +30,13 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 w-full text-center md:text-left">
           
           <div>
-            <h3 className="text-lg font-semibold uppercase">Home</h3>
-            <button className="block mt-2 text-sm hover:underline" onClick={() => scrollToSection("aboutUsContainer")}>
-              About
-            </button>
+            <h3 className="text-lg font-semibold uppercase cursor-pointer" onClick={() => scrollToSection("hero")}>Home</h3>
+            <ul className="mt-2 text-sm space-y-2">
+              <li className="cursor-pointer" onClick={() => scrollToSection("aboutUsContainer")}>About Us</li>
+              <li className="cursor-pointer" onClick={() => scrollToSection("servicesContainer")}>Services</li>
+              <li className="cursor-pointer" onClick={() => scrollToSection("blog")}>Blog</li>
+              <li className="cursor-pointer" onClick={() => scrollToSection("contactContainer")}>Contact at</li>
+            </ul>
           </div>
 
           <div>

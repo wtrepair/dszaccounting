@@ -18,17 +18,17 @@ const AboutUs1: FunctionComponent<AboutUs1Type> = ({ className = "" }) => {
       {/* Main Content */}
       <div className="max-w-screen-xl flex flex-col md:flex-row items-center gap-10">
         {/* Left: Image with overlay box */}
-        <div className="relative flex-shrink-0">
+        {/* <div className="relative flex-shrink-0">
           <div className="absolute bottom-0 left-0 w-full h-16 bg-darkslategray rounded-xl"></div>
           <img
             className="w-56 md:w-64 h-auto object-cover"
             alt="Financial expertise illustration"
             src="/blockchain-2246959removebgpreview-4@2x.png"
           />
-        </div>
+        </div> */}
 
         {/* Right: Text Content */}
-        <div className="flex-1 flex flex-col gap-2 text-gray-500 px-6">
+        <div className="flex-1 flex flex-col text-gray-500 px-6">
           <p className="text-lg leading-relaxed">
             With 30 years of accounting experience spanning multiple industries,
             Mr. Dinesh Singh has acquired exceptional expertise in a variety of

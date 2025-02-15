@@ -31,10 +31,10 @@ const Header: FunctionComponent<HeaderType> = ({ className = "" }) => {
         {/* Navigation & Sign-in Section */}
         <div className={`md:flex items-center gap-6 ${isMenuOpen ? "block" : "hidden"} absolute md:static top-16 left-0 w-full md:w-auto bg-white md:bg-transparent shadow-md md:shadow-none p-4 md:p-0`}>
           {[
-            { label: "Home", action: null },
-            { label: "About Us", action: () => scrollToSection("aboutUsContainer1") },
+            { label: "Home", action: () => scrollToSection("hero") },
+            { label: "About Us", action: () => scrollToSection("aboutUsContainer") },
             { label: "Our Services", action: () => scrollToSection("servicesContainer") },
-            { label: "Blog", action: null },
+            { label: "Blog", action: () => scrollToSection("blog") },
             { label: "Contact", action: () => scrollToSection("contactContainer") },
           ].map(({ label, action }) => (
             <div key={label} className="cursor-pointer font-medium py-2 md:py-0" onClick={action || undefined}>

@@ -21,10 +21,12 @@ const DineshCPA: FunctionComponent<DineshCPAType> = ({ className = "" }) => {
   return (
     <div
       className={`relative bg-white flex flex-col items-center justify-start text-17xl text-gray-900 font-text-xl-font-normal overflow-hidden ${className}`}
+      data-scroll-to="hero"
+    
     >
       <Header />
       <Jumbotron />
-      <div className="bg-green-800 w-full py-16 px-4 flex flex-col items-center text-center text-white">
+      <div className="bg-green-800 w-full py-16 px-4 flex flex-col items-center text-center text-white" data-scroll-to="servicesContainer">
         <div className="max-w-screen-xl w-full flex flex-col items-center justify-center">
           <div className="max-w-3xl flex flex-col items-center gap-6">
             <h2 className="text-4xl md:text-5xl font-extrabold leading-tight">
