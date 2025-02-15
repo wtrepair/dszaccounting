@@ -10,7 +10,7 @@ const Jumbotron: FunctionComponent<JumbotronType> = ({ className = "" }) => {
   return (
     <div
       className={`relative w-full flex flex-col items-center justify-center min-h-screen bg-cover bg-no-repeat bg-center text-center text-white ${className}`}
-      style={{ backgroundImage: "url('/public/jumbotron@3x.png')" }}
+      style={{ backgroundImage: "url('/jumbotron@3x.png')" }}
     >
       <div className="max-w-4xl flex flex-col items-center gap-6">
         <h1 className="text-4xl md:text-17xl lg:text-41xl font-extrabold leading-tight">
