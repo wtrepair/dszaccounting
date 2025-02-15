@@ -58,7 +58,7 @@ const Contact: FunctionComponent<ContactType> = ({ className = "" }) => {
           <SelectInput labelText="Language" placeholderText="Preferred language" showLabel />
         </div>
         <Textarea labelText="Your Message" placeholderText="Write your message here..." showLabel />
-        <Checkbox labelText="I agree to the terms and conditions" showLabel />
+        <Checkbox showLabel />
         <Button buttonText="Send Message" propBackgroundColor="#057a55" />
       </form>
     </div>

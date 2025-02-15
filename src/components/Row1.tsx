@@ -107,7 +107,6 @@ const Row1: FunctionComponent<Row1Type> = ({
             propBorderRadius={propBorderRadius}
             propHeight={propHeight1}
             cartPlus={cartPlus}
-            propTextTransform={propTextTransform}
             propColor={propColor}
             propAlignSelf={propAlignSelf}
             cartPlus1={cartPlus1}
