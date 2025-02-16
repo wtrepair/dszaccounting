@@ -21,7 +21,7 @@ const Header: FunctionComponent<HeaderType> = ({ className = "" }) => {
       <div className="flex items-center justify-between max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Logo Section */}
         <div className="flex items-center gap-3">
-          <img className="w-7 h-7" alt="Logo" src="/mountainsun.svg" />
+          <img className="w-7 h-7" alt="Logo" src="/logo.svg" />
           <div className="font-semibold">Dinesh CPA</div>
         </div>
 

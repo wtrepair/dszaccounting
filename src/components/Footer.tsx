@@ -73,7 +73,7 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
         {/* Footer Bottom */}
         <div className="w-full flex flex-col md:flex-row justify-between items-center text-sm">
           <div className="flex items-center gap-2">
-            <img className="w-6 h-6" alt="Logo" src="/mountainsun1.svg" />
+            <img className="w-6 h-6" alt="Logo" src="/logo1.svg" />
             <span className="font-semibold">Dinesh CPA</span>
           </div>
           <p className="text-center md:text-left">&copy; 2024 Dinesh CPA. All rights reserved.</p>

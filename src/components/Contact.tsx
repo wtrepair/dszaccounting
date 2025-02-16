@@ -206,7 +206,7 @@ const Contact: FunctionComponent<ContactType> = ({ className = "" }) => {
 
         <button
           type="submit"
-          className="w-full bg-green-700 text-white text-lg font-bold py-3 rounded-md hover:bg-green-800 transition duration-300"
+          className="w-full bg-green-600 text-white text-lg font-bold py-3 rounded-md hover:bg-green-800 transition duration-300"
         >
           Send Message
         </button>
