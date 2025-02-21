@@ -79,7 +79,7 @@ const BlogCard: FunctionComponent<BlogCardType> = ({
         style={cardBodyStyle}
       >
         <div
-          className="self-stretch flex-1 flex flex-col items-start justify-end gap-boundvariablesdata11"
+          className="self-stretch flex-1 flex flex-col items-start justify-start gap-boundvariablesdata11"
           style={contentStyle}
         >
           <div className="self-stretch flex flex-col items-start justify-start gap-boundvariablesdata1">
