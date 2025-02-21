@@ -62,7 +62,7 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
 
           <div>
             <h3 className="text-lg font-semibold uppercase">Contact</h3>
-            <p className="mt-2 text-sm">Email: info@dineshcpa.com</p>
+            <p className="mt-2 text-sm">Email: info@dszaccounting.com </p>
             <p className="text-sm">1-855-DINESH-1</p>
             <p className="text-sm">1-414-260-9030</p>
           </div>
@@ -75,9 +75,9 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
         <div className="w-full flex flex-col md:flex-row justify-between items-center text-sm">
           <div className="flex items-center gap-2">
             <img className="w-6 h-6" alt="Logo" src="/logo1.svg" />
-            <span className="font-semibold">Dinesh CPA</span>
+            <span className="font-semibold">DSZ Accounting and Tax Consultants</span>
           </div>
-          <p className="text-center md:text-left">&copy; 2025 Dinesh CPA. All rights reserved.</p>
+          <p className="text-center md:text-left">&copy; 2025 DSZ Accounting and Tax Consultants. All rights reserved.</p>
           <div className="flex items-center gap-2">
             <img className="w-6 h-4" alt="Flag" src="/flags--ca.svg" />
             <span>English (CA)</span>

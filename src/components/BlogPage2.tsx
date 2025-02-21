@@ -278,7 +278,7 @@ const BlogPage2: FunctionComponent<BlogPage2Type> = ({ className = "" }) => {
         ongoing process. By implementing cash flow management, tax planning,
         cost reduction strategies, and growth investments, your business can
         achieve long-term financial stability and success. <br />
-        At Dinesh CPA, we help businesses in the U.S. and Canada navigate
+        At DSZ Accounting and Tax Consultants, we help businesses in the U.S. and Canada navigate
         complex financial landscapes and build strong financial strategies.
         Contact us today to take the next step in securing your company’s
         financial future!

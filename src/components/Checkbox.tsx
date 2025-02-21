@@ -24,7 +24,7 @@ const Checkbox: FunctionComponent<CheckboxType> = ({
             <span>{`By submitting this form, you confirm that you have read and agree to `}</span>
             <span className="[text-decoration:underline] text-black">
               <b className="font-text-xl-font-normal">
-                <span className="text-gray1-100">Dinesh CPA</span>
+                <span className="text-gray1-100">DSZ Accounting and Tax Consultants</span>
               </b>
               <span>
                 <b className="font-text-xl-font-normal">{` `}</b>

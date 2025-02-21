@@ -219,7 +219,7 @@ const BlogPage3: FunctionComponent<BlogPage3Type> = ({ className = "" }) => {
         businesses in both the U.S. and Canada can optimize their tax strategies
         and reduce liabilities.
         <br />
-        At Dinesh CPA, we specialize in helping clients navigate complex tax
+        At DSZ Accounting and Tax Consultants, we specialize in helping clients navigate complex tax
         regulations and develop personalized strategies. Contact us today to
         ensure you’re making the most of recent tax changes and setting yourself
         up for financial success!

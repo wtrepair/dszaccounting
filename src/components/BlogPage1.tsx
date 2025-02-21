@@ -239,7 +239,7 @@ const BlogPage1: FunctionComponent<BlogPage1Type> = ({ className = "" }) => {
         alone can be overwhelming. The best way to ensure you’re taking full
         advantage of deductions, credits, and tax-saving strategies is to work
         with an experienced tax professional. <br />
-        At Dinesh CPA, we help individuals and businesses create customized tax
+        At DSZ Accounting and Tax Consultants, we help individuals and businesses create customized tax
         strategies to reduce liability and improve financial well-being. Contact
         us today to get started on a proactive tax plan that helps you keep more
         of your money where it belongs—in your pocket, whether you’re in the

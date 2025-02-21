@@ -17,7 +17,7 @@ const Container: FunctionComponent<ContainerType> = ({ className = "" }) => {
             Protect Your Wealth with Strategic Investment & Retirement Planning
           </h2>
           <p className="text-lg text-gray-500 leading-relaxed">
-            <b>Dinesh CPA</b> offers tailored services to help you manage your
+            <b>DSZ Accounting and Tax Consultants</b> offers tailored services to help you manage your
             finances efficiently.
             <br />
             With our expert guidance, you’ll gain clarity and confidence in your

@@ -81,7 +81,7 @@ const Services: FunctionComponent<ServicesType> = ({ className = "" }) => {
               </h2>
               <p className="text-base md:text-lg text-gray-500 leading-7">
                 In today’s fast-paced business world, having the right financial
-                tools is essential. At <b>Dinesh CPA</b>, we provide cloud
+                tools is essential. At <b>DSZ Accounting and Tax Consultants</b>, we provide cloud
                 accounting, expert bookkeeping, payroll management, and other
                 accounting solutions that keep your finances organized and your
                 business running smoothly. Focus on profitability while we
@@ -175,7 +175,7 @@ const Services: FunctionComponent<ServicesType> = ({ className = "" }) => {
                   </li>
                 </ul>
                 Whether you’re launching a new business or optimizing an
-                existing one, Dinesh CPA provides the expertise, guidance, and
+                existing one, DSZ Accounting and Tax Consultants provides the expertise, guidance, and
                 strategic support needed to ensure financial success.
               </p>
               <button className="bg-green-700 text-white px-6 py-3 rounded-lg font-medium hover:bg-green-800 transition cursor-pointer">
@@ -193,7 +193,7 @@ const Services: FunctionComponent<ServicesType> = ({ className = "" }) => {
               <p className="text-base md:text-lg text-gray-500 leading-7">
                 Year-end financial reporting is more than just meeting
                 deadlines—it’s about ensuring accuracy, compliance, and
-                strategic planning for the future. At Dinesh CPA, we provide
+                strategic planning for the future. At DSZ Accounting and Tax Consultants, we provide
                 expert tax compliance and advisory services, ensuring full
                 adherence to IRS (U.S.) and CRA (Canada) regulations. Whether
                 you operate domestically or across borders, we help businesses
@@ -251,7 +251,7 @@ const Services: FunctionComponent<ServicesType> = ({ className = "" }) => {
                 Legacy Planning and Business Valuations
               </h2>
               <p className="text-base md:text-lg text-gray-500 leading-7">
-                At <b>Dinesh CPA</b>, we specialize in business valuation and
+                At <b>DSZ Accounting and Tax Consultants</b>, we specialize in business valuation and
                 succession planning to help you protect and optimize the wealth
                 you’ve built. Whether you’re a small business owner or leading a
                 corporation, we guide you through the transition—helping you

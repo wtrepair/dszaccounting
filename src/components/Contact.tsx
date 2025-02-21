@@ -74,7 +74,7 @@ const Contact: FunctionComponent<ContactType> = ({ className = "" }) => {
           <p className="text-gray-500 text-sm m-2">1-855-DINESH-1</p>
           <p className="text-gray-500 text-sm m-2">
             Email us for general queries, including marketing and partnerships.
-            <b className="block mt-2 text-green-600"> info@dineshcpa.com</b>
+            <b className="block mt-2 text-green-600"> info@dszaccounting.com</b>
           </p>
         </div>
       </div>

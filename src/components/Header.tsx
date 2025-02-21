@@ -51,7 +51,7 @@ const Header: FunctionComponent<HeaderType> = ({ className = "" }) => {
         {/* Logo Section */}
         <div className="flex items-center gap-3">
           <img className="w-7 h-7" alt="Logo" src="/logo.svg" />
-          <div className="font-semibold">Dinesh CPA</div>
+          <div className="font-semibold">DSZ ACCOUNTING</div>
         </div>
 
         {/* Mobile Menu Toggle */}
