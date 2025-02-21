@@ -1,5 +1,7 @@
 import { FunctionComponent, useMemo, type CSSProperties } from "react";
 import Badge from "./Badge";
+import { useNavigate } from "react-router-dom";
+
 
 export type BlogCardType = {
   className?: string;
@@ -17,6 +19,7 @@ export type BlogCardType = {
   propHeight?: CSSProperties["height"];
   cardBodyFlex?: CSSProperties["flex"];
   contentFlex?: CSSProperties["flex"];
+  blogId?: string;
 };
 
 const BlogCard: FunctionComponent<BlogCardType> = ({
@@ -33,6 +36,7 @@ const BlogCard: FunctionComponent<BlogCardType> = ({
   showCloseIcon,
   cardBodyFlex,
   contentFlex,
+  blogId,
 }) => {
   const contentStyle: CSSProperties = useMemo(() => {
     return {
@@ -53,6 +57,12 @@ const BlogCard: FunctionComponent<BlogCardType> = ({
     };
   }, [cardBodyFlex]);
 
+  const navigate = useNavigate();
+
+  const handleLearnMoreClick = () => {
+    navigate(`/blog/${blogId}`);
+  };
+
   return (
     <div
       className={`flex-1 shadow-[0px_4px_6px_-1px_rgba(0,_0,_0,_0.1),_0px_2px_4px_-2px_rgba(0,_0,_0,_0.05)] rounded-lg bg-white h-auto overflow-hidden flex flex-col items-start justify-start gap-boundvariablesdata4 text-left text-5xl text-gray-900 font-text-xl-font-normal ${className}`}
@@ -72,12 +82,6 @@ const BlogCard: FunctionComponent<BlogCardType> = ({
           className="self-stretch flex-1 flex flex-col items-start justify-end gap-boundvariablesdata11"
           style={contentStyle}
         >
-          <Badge
-            showText={showText}
-            badgeText={badgeText}
-            showIcon={showIcon}
-            showCloseIcon={showCloseIcon}
-          />
           <div className="self-stretch flex flex-col items-start justify-start gap-boundvariablesdata1">
             <b
               className="self-stretch relative leading-[125%]"
@@ -89,21 +93,12 @@ const BlogCard: FunctionComponent<BlogCardType> = ({
               {preview}
             </div>
           </div>
-          <div className="flex flex-row items-end justify-center gap-boundvariablesdata11 text-sm">
-            <img
-              className="w-8 relative rounded-81xl h-8 object-cover"
-              alt=""
-              src="/avatar@2x.png"
-            />
-            <div className="flex flex-col items-start justify-start">
-              <div className="relative leading-[125%] font-medium">
-                Bonnie Green
-              </div>
-              <div className="relative leading-[125%] text-gray-500">
-                {small}
-              </div>
-            </div>
-          </div>
+          <button
+            className="bg-[#0e9f6e] text-white px-3 py-3 rounded-lg text-sm font-medium hover:bg-green-800 transition cursor-pointer"
+            onClick={handleLearnMoreClick}
+          >
+            Learn More
+          </button>
         </div>
       </div>
     </div>

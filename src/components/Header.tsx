@@ -1,4 +1,4 @@
-import { FunctionComponent, useCallback, useState } from "react";
+import { FunctionComponent, useCallback, useState, useEffect } from "react";
 
 export type HeaderType = {
   className?: string;
@@ -8,10 +8,39 @@ const Header: FunctionComponent<HeaderType> = ({ className = "" }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const scrollToSection = useCallback((selector: string) => {
-    document.querySelector(`[data-scroll-to='${selector}']`)?.scrollIntoView({
-      block: "start",
-      behavior: "smooth",
-    });
+    if (window.location.pathname === "/") {
+      const element = document.querySelector(`[data-scroll-to='${selector}']`);
+      if (element) {
+        element.scrollIntoView({
+          block: "start",
+          behavior: "smooth",
+        });
+      }
+    } else {
+      window.history.pushState({}, "", "/");
+      const element = document.querySelector(`[data-scroll-to='${selector}']`);
+      if (element) {
+        element.scrollIntoView({
+          block: "start",
+          behavior: "smooth",
+        });
+      }
+    }
+  }, []);
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const scrollTo = params.get("scrollTo");
+    if (scrollTo) {
+      window.history.replaceState({}, "", "/");
+      const element = document.querySelector(`[data-scroll-to='${scrollTo}']`);
+      if (element) {
+        element.scrollIntoView({
+          block: "start",
+          behavior: "smooth",
+        });
+      }
+    }
   }, []);
 
   return (
@@ -41,10 +70,19 @@ const Header: FunctionComponent<HeaderType> = ({ className = "" }) => {
         >
           {[
             { label: "Home", action: () => scrollToSection("hero") },
-            { label: "About Us", action: () => scrollToSection("aboutUsContainer") },
-            { label: "Our Services", action: () => scrollToSection("servicesContainer") },
+            {
+              label: "About Us",
+              action: () => scrollToSection("aboutUsContainer"),
+            },
+            {
+              label: "Our Services",
+              action: () => scrollToSection("servicesContainer"),
+            },
             { label: "Blog", action: () => scrollToSection("blog") },
-            { label: "Contact", action: () => scrollToSection("contactContainer") },
+            {
+              label: "Contact",
+              action: () => scrollToSection("contactContainer"),
+            },
           ].map(({ label, action }) => (
             <div
               key={label}
@@ -54,13 +92,6 @@ const Header: FunctionComponent<HeaderType> = ({ className = "" }) => {
               {label}
             </div>
           ))}
-
-          {/* Divider */}
-          <div className="hidden md:block w-px h-5 bg-gray-200" />
-
-          {/* Sign-in & Notification */}
-          <div className="cursor-pointer font-medium text-primary-700">Sign In</div>
-          <img className="w-5 h-5 hidden lg:block" alt="Notifications" src="/bell.svg" />
         </div>
       </div>
     </div>

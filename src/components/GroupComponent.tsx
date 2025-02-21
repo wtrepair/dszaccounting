@@ -30,6 +30,7 @@ const GroupComponent: FunctionComponent<GroupComponentType> = ({
             showText
             showIcon={false}
             showCloseIcon={false}
+            blogId="1"
           />
           <BlogCard
             cardHeader="/cardheader1@2x.png"
@@ -40,6 +41,7 @@ const GroupComponent: FunctionComponent<GroupComponentType> = ({
             showText
             showIcon={false}
             showCloseIcon={false}
+            blogId="2"
           />
           <BlogCard
             cardHeader="/cardheader2@2x.png"
@@ -50,6 +52,7 @@ const GroupComponent: FunctionComponent<GroupComponentType> = ({
             showText
             showIcon
             showCloseIcon
+            blogId="3"
           />
         </div>
       </div>

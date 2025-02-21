@@ -94,7 +94,7 @@ const DineshCPA: FunctionComponent<DineshCPAType> = ({ className = "" }) => {
       <AboutUs1 />
       {/* <Carousel /> */}
 
-      {/* <GroupComponent /> */}
+      <GroupComponent />
       {/* <div className="relative w-full flex flex-col items-center justify-center text-center text-gray-900 py-16 px-4">
         <h2 className="text-13xl md:text-5xl font-extrabold leading-tight">
           Stay informed with the most recent financial and business updates by
