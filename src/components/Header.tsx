@@ -49,9 +49,17 @@ const Header: FunctionComponent<HeaderType> = ({ className = "" }) => {
     >
       <div className="flex items-center justify-between max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Logo Section */}
-        <div className="flex items-center gap-3">
-          <img className="w-7 h-7" alt="Logo" src="/logo.svg" />
-          <div className="font-semibold">DSZ ACCOUNTING</div>
+        <div
+          className="flex items-center gap-3"
+          onClick={() => (window.location.href = "/")}
+        >
+          <img className="w-7 h-7 cursor-pointer" alt="Logo" src="/logo.svg" />
+          <div
+            className="font-semibold cursor-pointer"
+            onClick={() => (window.location.href = "/")}
+          >
+            DSZ ACCOUNTING
+          </div>
         </div>
 
         {/* Mobile Menu Toggle */}
@@ -68,8 +76,8 @@ const Header: FunctionComponent<HeaderType> = ({ className = "" }) => {
             isMenuOpen ? "block" : "hidden"
           } absolute md:static top-16 left-0 w-full md:w-auto bg-white md:bg-transparent shadow-md md:shadow-none p-4 md:p-0`}
         >
-          {[
-            { label: "Home", action: () => scrollToSection("hero") },
+            {[
+            { label: "Home", action: () => (window.location.href = "/") },
             {
               label: "About Us",
               action: () => scrollToSection("aboutUsContainer"),
@@ -83,7 +91,7 @@ const Header: FunctionComponent<HeaderType> = ({ className = "" }) => {
               label: "Contact",
               action: () => scrollToSection("contactContainer"),
             },
-          ].map(({ label, action }) => (
+            ].map(({ label, action }) => (
             <div
               key={label}
               className="cursor-pointer font-medium py-2 md:py-0"
@@ -91,7 +99,7 @@ const Header: FunctionComponent<HeaderType> = ({ className = "" }) => {
             >
               {label}
             </div>
-          ))}
+            ))}
         </div>
       </div>
     </div>
