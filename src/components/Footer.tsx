@@ -21,8 +21,8 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
         <div className="text-center mb-8">
           <h2 className="text-2xl font-bold">Let's work together</h2>
           <div className="mt-4 flex flex-wrap gap-4 justify-center">
-            <Button buttonText="Receive News" showButtonText propBackgroundColor="#fff" propColor="#111928" />
-            <Button buttonText="Contact Us" showButtonText />
+            {/* <Button buttonText="Receive News" showButtonText propBackgroundColor="#fff" propColor="#111928" /> */}
+            <h3 className="text-17xl font-semibold uppercase cursor-pointer" onClick={() => scrollToSection("contactContainer")}>Contact</h3>
           </div>
         </div>
 
@@ -63,7 +63,8 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
           <div>
             <h3 className="text-lg font-semibold uppercase">Contact</h3>
             <p className="mt-2 text-sm">Email: info@dineshcpa.com</p>
-            <p className="text-sm">Phone: 1-855-DINESH-1</p>
+            <p className="text-sm">1-855-DINESH-1</p>
+            <p className="text-sm">1-414-260-9030</p>
           </div>
         </div>
 
@@ -76,7 +77,7 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
             <img className="w-6 h-6" alt="Logo" src="/logo1.svg" />
             <span className="font-semibold">Dinesh CPA</span>
           </div>
-          <p className="text-center md:text-left">&copy; 2024 Dinesh CPA. All rights reserved.</p>
+          <p className="text-center md:text-left">&copy; 2025 Dinesh CPA. All rights reserved.</p>
           <div className="flex items-center gap-2">
             <img className="w-6 h-4" alt="Flag" src="/flags--ca.svg" />
             <span>English (CA)</span>

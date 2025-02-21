@@ -14,7 +14,7 @@ const GroupComponent: FunctionComponent<GroupComponentType> = ({
       className={`w-full text-center text-gray-900 font-text-xl-font-normal ${className}`}
       data-scroll-to="blog"
     >
-      <div className="w-full text-2xl md:text-4xl font-extrabold underline my-8">
+      <div className="w-full text-2xl md:text-4xl font-extrabold my-8">
         Latest Posts
       </div>
       <div className="w-full bg-white flex flex-col items-center text-left text-lg">

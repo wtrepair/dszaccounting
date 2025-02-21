@@ -38,7 +38,7 @@ const DineshCPA: FunctionComponent<DineshCPAType> = ({ className = "" }) => {
               personal or corporate strategy, ensuring maximum growth
               opportunities.
             </p>
-            <div className="flex flex-wrap justify-center gap-4 mt-6">
+            {/* <div className="flex flex-wrap justify-center gap-4 mt-6">
               <Button
                 showRightIcon
                 showLeftIcon={false}
@@ -79,7 +79,7 @@ const DineshCPA: FunctionComponent<DineshCPAType> = ({ className = "" }) => {
                 buttonFlex="unset"
                 buttonAlignSelf="unset"
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -94,15 +94,15 @@ const DineshCPA: FunctionComponent<DineshCPAType> = ({ className = "" }) => {
       <AboutUs1 />
       {/* <Carousel /> */}
 
-      <GroupComponent />
-      <div className="relative w-full flex flex-col items-center justify-center text-center text-gray-900 py-16 px-4">
+      {/* <GroupComponent /> */}
+      {/* <div className="relative w-full flex flex-col items-center justify-center text-center text-gray-900 py-16 px-4">
         <h2 className="text-13xl md:text-5xl font-extrabold leading-tight">
           Stay informed with the most recent financial and business updates by
           subscribing to our blog.
         </h2>
-      </div>
+      </div> */}
       <Testimonials />
-      <Newsletter />
+      {/* <Newsletter /> */}
       <Contact />
 
       <Footer />

@@ -11,7 +11,7 @@ const AboutUs1: FunctionComponent<AboutUs1Type> = ({ className = "" }) => {
       data-scroll-to="aboutUsContainer"
     >
       {/* Heading */}
-      <h2 className="text-3xl md:text-4xl font-bold text-gray-900 underline mb-6">
+      <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
         About Us
       </h2>
 
@@ -30,21 +30,30 @@ const AboutUs1: FunctionComponent<AboutUs1Type> = ({ className = "" }) => {
         {/* Right: Text Content */}
         <div className="flex-1 flex flex-col text-gray-500 px-6">
           <p className="text-lg leading-relaxed">
-            With 30 years of accounting experience spanning multiple industries,
-            Mr. Dinesh Singh has acquired exceptional expertise in a variety of
-            service areas related to both corporate and personal accounting and
-            taxation.
-          </p>
-          <p className="text-lg leading-relaxed">
-            Strategy is of utmost importance, and Mr. Singh takes a broad stance
-            when analyzing your or your company’s particular situation. Having
-            been himself involved in numerous business deals, Mr. Singh is an
-            experienced comptroller and is adept at delivering financial advice.
-          </p>
-          <p className="text-lg leading-relaxed">
-            At Dinesh CPA, we aim to always use a proactive approach to address
-            your accounting needs and keep you informed about the latest
-            financial trends and regulations.
+            With over 30 years of accounting experience across multiple
+            industries, <b>Dinesh CPA</b> provides expert financial services to
+            both corporate and personal clients in Canada and the United States.
+            With offices on both sides of the border, our firm specializes in
+            cross-border taxation, helping businesses and individuals navigate
+            complex financial regulations seamlessly.
+            <br />
+            At <b>Dinesh CPA</b>, strategy is at the core of everything we do.
+            Our team takes a broad, forward-thinking approach to analyzing each
+            client’s financial situation, ensuring that every decision aligns
+            with long-term success. With deep experience in financial
+            management, business transactions, and corporate oversight, we help
+            clients optimize financial performance and drive sustainable growth.
+            <br />
+            Drawing from firsthand experience in financial strategy, tax
+            planning, and compliance, our leadership delivers financial advice
+            that is both technically sound and grounded in real-world
+            application.
+            <br />
+            We prioritize a proactive approach, keeping our clients informed
+            about the latest financial trends, tax laws, and regulatory changes.
+            Whether you’re an entrepreneur, a growing business, or an individual
+            seeking expert tax guidance, <b>Dinesh CPA</b> provides the reliable
+            financial expertise and strategic insights you need to succeed.
           </p>
         </div>
       </div>

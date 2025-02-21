@@ -7,22 +7,23 @@ export type ContainerType = {
 
 const Container: FunctionComponent<ContainerType> = ({ className = "" }) => {
   return (
-    <div className={`w-full bg-white py-16 px-4 flex justify-center ${className}`}>
+    <div
+      className={`w-full bg-white py-16 px-4 flex justify-center ${className}`}
+    >
       <div className="max-w-screen-xl flex flex-col lg:flex-row items-center gap-10">
         {/* Left Text Content */}
         <div className="flex-1 flex flex-col items-start gap-4 px-2 md:px-4">
           <h2 className="text-13xl md:text-4xl font-extrabold text-gray-900 leading-tight">
-            Protect your wealth against economic changes and financial uncertainty.
+            Protect Your Wealth with Strategic Investment & Retirement Planning
           </h2>
           <p className="text-lg text-gray-500 leading-relaxed">
-            Dinesh CPA offers tailored services to help you manage your finances efficiently, 
-            ensuring that you stay ahead of financial challenges and maximize your wealth.
-          </p>
-          <p className="text-lg text-gray-500 leading-relaxed">
-            With our expert guidance, you’ll gain clarity and confidence in your financial 
-            decisions, allowing you to focus on what truly matters—securing your financial future. 
-            Whether it’s tax planning, accounting, or strategic advice, Dinesh CPA is your 
-            trusted partner every step of the way.
+            <b>Dinesh CPA</b> offers tailored services to help you manage your
+            finances efficiently.
+            <br />
+            With our expert guidance, you’ll gain clarity and confidence in your
+            financial decisions, allowing you to focus on what truly
+            matters—securing your financial future. Let us help you make
+            informed financial decisions with confidence.
           </p>
           <Button
             showRightIcon
@@ -51,7 +52,7 @@ const Container: FunctionComponent<ContainerType> = ({ className = "" }) => {
           <img
             className="w-full max-w-md md:max-w-lg h-auto object-cover"
             alt="Financial security concept"
-            src="/pirateartifactsarrangementstilllife-1@2x.png"
+            src="/pirateartifactsarrangementstilllife.png"
           />
         </div>
       </div>

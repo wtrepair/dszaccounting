@@ -7,15 +7,18 @@ export type HeroType = {
 
 const Hero: FunctionComponent<HeroType> = ({ className = "" }) => {
   return (
-    <div className={`bg-white w-full py-16 px-4 flex flex-col items-center text-center text-gray-900 ${className}`}>
+    <div
+      className={`bg-white w-full py-16 px-4 flex flex-col items-center text-center text-gray-900 ${className}`}
+    >
       <div className="max-w-screen-xl flex flex-col items-center justify-center">
         <div className="max-w-3xl flex flex-col items-center gap-6">
           <h2 className="text-13xl md:text-5xl font-extrabold leading-tight">
             Numbers with Purpose: Building Your Path to Prosperity.
           </h2>
           <p className="text-lg md:text-xl leading-relaxed text-gray-500">
-            Our approach goes beyond just managing your finances; we give numbers purpose by 
-            using them to build a clear and prosperous path for your business’s future.
+            Our approach goes beyond just managing your finances—we turn numbers
+            into strategy, helping individuals and businesses build a clear path
+            to financial security and success.
           </p>
           <div className="flex flex-wrap justify-center gap-4 mt-6 sm:hidden">
             <Button

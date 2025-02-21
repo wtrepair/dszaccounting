@@ -7,21 +7,18 @@ export type TestimonialsType = {
 const testimonialsData = [
   {
     text: "I’ve had a great experience with Dinesh Singh CPA. Their clear communication and ability to simplify complex financial matters have made managing my finances stress-free. Highly recommend!",
-    name: "J. Lohuis",
-    role: "C.E.O",
+    name: "Josh L.",
     avatar: "/avatar1@2x.png",
   },
   {
-    text: "Dinesh Singh CPA has been an invaluable partner in our financial planning. Their expertise and dedication have given us confidence in managing our company's finances.",
-    name: "M. Patel",
-    role: "Financial Director",
-    avatar: "/avatar2@2x.png",
+    text: "Dinesh Singh CPA, is very smart accountant,I have been consulting Dinesh for my buisness accounting needs since 10 years.He is honest, sincère and hard working..",
+    name: "Jagmohan S.",
+    avatar: "/J singh.png",
   },
   {
-    text: "Their tax planning services helped us save a significant amount while ensuring compliance. We highly appreciate their professionalism and attention to detail!",
-    name: "A. Brown",
-    role: "Business Owner",
-    avatar: "/avatar3@2x.png",
+    text: "Mr. Dinesh is a very good financial professional.He is an honest and hard working individual he is giving the best advice. He is very prompt and provides a hassle free experience. I highly recommend using their services. He is very quick to respond to any of my questions and solve all my problems. He is best for me. I would highly recommend Dinesh singh.",
+    name: "Divya M.", 
+    avatar: "/divya monga.png",
   },
 ];
 
@@ -57,8 +54,6 @@ const Testimonials: FunctionComponent<TestimonialsType> = ({ className = "" }) =
             <img className="w-10 h-10 rounded-full object-cover" src={testimonialsData[currentIndex].avatar} alt={testimonialsData[currentIndex].name} />
             <div className="flex flex-row items-center gap-2">
               <span className="text-lg font-semibold">{testimonialsData[currentIndex].name}</span>
-              <span className="text-gray-400">/</span>
-              <span className="text-sm text-gray-500">{testimonialsData[currentIndex].role}</span>
             </div>
           </div>
         </div>
