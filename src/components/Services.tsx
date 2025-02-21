@@ -75,7 +75,7 @@ const Services: FunctionComponent<ServicesType> = ({ className = "" }) => {
               src="/collagefinancebannerconcept-2@2x.png"
               alt="Bookkeeping Support"
             />
-            <div className="w-full lg:w-[50%] flex flex-col items-start justify-start gap-6">
+            <div className="w-full lg:w-[50%] flex flex-col items-start justify-start">
               <h2 className="text-xl md:text-2xl lg:text-3xl font-extrabold">
                 Accounting, Payroll and Taxes Services for Businesses
               </h2>
@@ -111,7 +111,7 @@ const Services: FunctionComponent<ServicesType> = ({ className = "" }) => {
               src="/coins.jpg"
               alt="Financial Year End"
             />
-            <div className="w-full lg:w-[50%] flex flex-col items-start justify-start gap-6">
+            <div className="w-full lg:w-[50%] flex flex-col items-start justify-start">
               <h2 className="text-xl md:text-2xl lg:text-3xl font-extrabold">
                 Business Services
               </h2>
@@ -186,7 +186,7 @@ const Services: FunctionComponent<ServicesType> = ({ className = "" }) => {
 
           {/* Section 4 - Financial Year End and Audit Readiness */}
           <div className="flex flex-col lg:flex-row items-center justify-between gap-8 w-full">
-            <div className="w-full lg:w-[50%] flex flex-col items-start justify-start gap-6">
+            <div className="w-full lg:w-[50%] flex flex-col items-start justify-start">
               <h2 className="text-xl md:text-2xl lg:text-3xl font-extrabold">
                 Financial Year End and Audit Readiness
               </h2>
@@ -214,7 +214,7 @@ const Services: FunctionComponent<ServicesType> = ({ className = "" }) => {
 
           {/* Section 5 - Business Planning & Advisory */}
           <div className="flex flex-col lg:flex-row-reverse items-center justify-between gap-8 w-full">
-            <div className="w-full lg:w-[50%] flex flex-col items-start justify-start gap-6">
+            <div className="w-full lg:w-[50%] flex flex-col items-start justify-start">
               <h2 className="text-xl md:text-2xl lg:text-3xl font-extrabold">
                 Business Planning & Advisory
               </h2>
@@ -246,7 +246,7 @@ const Services: FunctionComponent<ServicesType> = ({ className = "" }) => {
 
           {/* Section 6 - Legacy Planning and Business Valuations */}
           <div className="flex flex-col lg:flex-row items-center justify-between gap-8 w-full">
-            <div className="w-full lg:w-[50%] flex flex-col items-start justify-start gap-6">
+            <div className="w-full lg:w-[50%] flex flex-col items-start justify-start">
               <h2 className="text-xl md:text-2xl lg:text-3xl font-extrabold">
                 Legacy Planning and Business Valuations
               </h2>

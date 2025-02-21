@@ -70,9 +70,9 @@ const Contact: FunctionComponent<ContactType> = ({ className = "" }) => {
           {/* Phone for .ca website */}
           {/* <p className="text-gray-500 text-sm">+1 613 480 0184</p> */}
           {/* Phone for .com website */}
-          <p className="text-gray-500 text-sm">+1 414 260 9030</p>
-          <p className="text-gray-500 text-sm">1-855-DINESH-1</p>
-          <p className="text-gray-500 text-sm">
+          <p className="text-gray-500 text-sm m-2">+1 414 260 9030</p>
+          <p className="text-gray-500 text-sm m-2">1-855-DINESH-1</p>
+          <p className="text-gray-500 text-sm m-2">
             Email us for general queries, including marketing and partnerships.
             <b className="block mt-2 text-green-600"> info@dineshcpa.com</b>
           </p>
