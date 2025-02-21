@@ -9,7 +9,7 @@ export type BlogPage3Type = {
 const BlogPage3: FunctionComponent<BlogPage3Type> = ({ className = "" }) => {
   return (
     <div
-      className={`relative bg-white flex flex-col items-center justify-start text-17xl text-gray-900 font-text-xl-font-normal overflow-hidden gap-2 ${className}`}
+      className={`relative bg-white flex flex-col items-center justify-start text-17xl text-gray-900 font-text-xl-font-normal overflow-hidden gap-2 px-4 ${className}`}
     >
       <Header />
 
@@ -20,7 +20,7 @@ const BlogPage3: FunctionComponent<BlogPage3Type> = ({ className = "" }) => {
           alt=""
         />
       </div>
-      <h1 className="w-full max-w-4xl flex flex-col items-center justify-center mx-auto px-4 text-5xl font-bold">
+      <h1 className="w-full max-w-4xl flex flex-col items-center justify-center mx-auto text-5xl font-bold">
         Understanding the Latest Tax Changes: What You Need to Know
       </h1>
       <div className="w-full max-w-4xl flex flex-col items-between justify-center mx-auto px-4">
@@ -212,7 +212,7 @@ const BlogPage3: FunctionComponent<BlogPage3Type> = ({ className = "" }) => {
       <h1 className="w-full max-w-4xl flex flex-col items-start justify-center mx-auto px-4 text-5xl font-bold">
         Be Proactive & Stay Informed
       </h1>
-      <p className="w-full max-w-4xl text-gray-500 px-6 text-base md:text-lg text-gray-800 leading-7 text-xl font-normal ">
+      <p className="w-full max-w-4xl text-gray-500 px-6 text-base md:text-lg text-gray-800 leading-7 text-xl font-normal">
         Tax laws are constantly evolving, and staying informed is essential to
         protecting your income and ensuring compliance. By understanding the
         latest tax changes and taking proactive steps, individuals and

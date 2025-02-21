@@ -9,7 +9,7 @@ export type BlogPage2Type = {
 const BlogPage2: FunctionComponent<BlogPage2Type> = ({ className = "" }) => {
   return (
     <div
-      className={`relative bg-white flex flex-col items-center justify-start text-17xl text-gray-900 font-text-xl-font-normal overflow-hidden gap-2 ${className}`}
+      className={`relative bg-white flex flex-col items-center justify-start text-17xl text-gray-900 font-text-xl-font-normal overflow-hidden gap-2 px-4 ${className}`}
     >
       <Header />
 
