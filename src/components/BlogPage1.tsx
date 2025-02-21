@@ -245,10 +245,6 @@ const BlogPage1: FunctionComponent<BlogPage1Type> = ({ className = "" }) => {
         of your money where it belongs—in your pocket, whether you’re in the
         U.S. or Canada.
       </p>
-      <button className="items-start justify-center mx-auto px-4 py-4 text-2xl font-bold bg-green-500 text-white rounded-lg mt-4">
-        Go Back
-      </button>
-
       <Footer />
     </div>
   );
