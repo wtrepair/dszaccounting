@@ -9,13 +9,13 @@ export type BlogPage2Type = {
 const BlogPage2: FunctionComponent<BlogPage2Type> = ({ className = "" }) => {
   return (
     <div
-      className={`relative bg-white flex flex-col items-center justify-start text-17xl text-gray-900 font-text-xl-font-normal overflow-hidden gap-2 px-4 ${className}`}
+      className={`relative bg-white flex flex-col items-center justify-start text-17xl text-gray-900 font-text-xl-font-normal overflow-hidden gap-2 ${className}`}
     >
       <Header />
 
       <div className="w-full flex flex-col items-center justify-center mt-20 ">
         <img
-          className="h-[500px] overflow-hidden shrink-0 rounded-lg shadow-lg"
+          className="w-full max-w-4xl max-w-[500px] overflow-hidden shrink-0 rounded-lg shadow-lg"
           src="/blog2.webp"
           alt=""
         />

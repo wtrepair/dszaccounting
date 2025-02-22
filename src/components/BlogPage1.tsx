@@ -8,14 +8,13 @@ export type BlogPage1Type = {
 
 const BlogPage1: FunctionComponent<BlogPage1Type> = ({ className = "" }) => {
   return (
-    <div className={`relative bg-white flex flex-col items-center justify-start text-17xl text-gray-900 font-text-xl-font-normal overflow-hidden gap-2  ${className}`}>
+    <div
+      className={`relative bg-white flex flex-col items-center justify-center text-17xl text-gray-900 font-text-xl-font-normal overflow-hidden gap-2 ${className}`}
+    >
       <Header />
-      <div
-        className={`px-4`}
-      >
-        <div className="w-full flex flex-col items-center justify-center mt-20 ">
+        <div className="w-full flex flex-col items-center justify-center mt-20">
           <img
-            className="h-[500px] overflow-hidden shrink-0 rounded-lg shadow-lg"
+            className="w-full max-w-4xl max-w-[500px] overflow-hidden shrink-0 rounded-lg shadow-lg"
             src="/blog1.png"
             alt=""
           />
@@ -242,7 +241,7 @@ const BlogPage1: FunctionComponent<BlogPage1Type> = ({ className = "" }) => {
         <h1 className="w-full max-w-4xl flex flex-col items-start justify-center mx-auto px-4 text-5xl font-bold">
           Work with a Tax Professional to Maximize Savings
         </h1>
-        <p className="w-full max-w-4xl text-gray-500 px-6 text-base md:text-lg text-gray-800 leading-7 text-xl font-normal ">
+        <p className="w-full max-w-4xl text-gray-500 text-base md:text-lg text-gray-800 leading-7 text-xl font-normal">
           Tax laws in the U.S. and Canada change frequently, and navigating them
           alone can be overwhelming. The best way to ensure you’re taking full
           advantage of deductions, credits, and tax-saving strategies is to work
@@ -253,7 +252,7 @@ const BlogPage1: FunctionComponent<BlogPage1Type> = ({ className = "" }) => {
           proactive tax plan that helps you keep more of your money where it
           belongs—in your pocket, whether you’re in the U.S. or Canada.
         </p>
-      </div>
+
       <Footer />
     </div>
   );

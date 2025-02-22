@@ -8,17 +8,17 @@ const testimonialsData = [
   {
     text: "I’ve had a great experience with Dinesh Singh CPA. Their clear communication and ability to simplify complex financial matters have made managing my finances stress-free. Highly recommend!",
     name: "Josh L.",
-    avatar: "/avatar1@2x.png",
+    // avatar: "/avatar1@2x.png",
   },
   {
     text: "Dinesh Singh CPA, is very smart accountant,I have been consulting Dinesh for my buisness accounting needs since 10 years.He is honest, sincère and hard working..",
     name: "Jagmohan S.",
-    avatar: "/J singh.png",
+    // avatar: "/J singh.png",
   },
   {
     text: "Mr. Dinesh is a very good financial professional.He is an honest and hard working individual he is giving the best advice. He is very prompt and provides a hassle free experience. I highly recommend using their services. He is very quick to respond to any of my questions and solve all my problems. He is best for me. I would highly recommend Dinesh singh.",
     name: "Divya M.", 
-    avatar: "/divya monga.png",
+    // avatar: "/divya monga.png",
   },
 ];
 
@@ -51,7 +51,7 @@ const Testimonials: FunctionComponent<TestimonialsType> = ({ className = "" }) =
             “{testimonialsData[currentIndex].text}”
           </p>
           <div className="flex flex-row items-center justify-center gap-3 mt-4">
-            <img className="w-10 h-10 rounded-full object-cover" src={testimonialsData[currentIndex].avatar} alt={testimonialsData[currentIndex].name} />
+            {/* <img className="w-10 h-10 rounded-full object-cover" src={testimonialsData[currentIndex].avatar} alt={testimonialsData[currentIndex].name} /> */}
             <div className="flex flex-row items-center gap-2">
               <span className="text-lg font-semibold">{testimonialsData[currentIndex].name}</span>
             </div>

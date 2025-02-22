@@ -43,7 +43,7 @@ const Contact: FunctionComponent<ContactType> = ({ className = "" }) => {
           <h3 className="font-semibold mt-4">Company Information</h3>
           <p className="text-gray-500 text-sm">
             Dinesh Singh CGA, CPA
-            <br /> Dinesh Professional Corporation
+            <br /> DSZ Accounting & Tax Consultants
           </p>
         </div>
         <div className="flex flex-col items-center">
@@ -70,7 +70,7 @@ const Contact: FunctionComponent<ContactType> = ({ className = "" }) => {
           {/* Phone for .ca website */}
           {/* <p className="text-gray-500 text-sm">+1 613 480 0184</p> */}
           {/* Phone for .com website */}
-          <p className="text-gray-500 text-sm m-2">+1 414 260 9030</p>
+          <p className="text-gray-500 text-sm m-2">+1-414-260-9030</p>
           <p className="text-gray-500 text-sm m-2">1-855-DINESH-1</p>
           <p className="text-gray-500 text-sm m-2">
             Email us for general queries, including marketing and partnerships.

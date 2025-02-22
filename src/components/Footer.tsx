@@ -60,12 +60,12 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
             </ul>
           </div>
 
-          <div>
+            <div className="col-span-2 md:col-span-1">
             <h3 className="text-lg font-semibold uppercase">Contact</h3>
-            <p className="mt-2 text-sm">Email: info@dszaccounting.com </p>
+            <p className="mt-2 text-sm">Email: info@dszaccounting.com</p>
             <p className="text-sm">1-855-DINESH-1</p>
             <p className="text-sm">1-414-260-9030</p>
-          </div>
+            </div>
         </div>
 
         {/* Separator */}
@@ -80,8 +80,7 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
           <p className="text-center md:text-left">&copy; 2025 DSZ Accounting and Tax Consultants. All rights reserved.</p>
           <div className="flex items-center gap-2">
             <img className="w-6 h-4" alt="Flag" src="/flags--ca.svg" />
-            <span>English (CA)</span>
-            <img className="w-4 h-4" alt="Dropdown" src="/chevrondown.svg" />
+            <span>English (USA)</span>
           </div>
         </div>
 
