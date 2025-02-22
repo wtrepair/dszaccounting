@@ -79,7 +79,8 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
           </div>
           <p className="text-center md:text-left">&copy; 2025 DSZ Accounting and Tax Consultants. All rights reserved.</p>
           <div className="flex items-center gap-2">
-            <img className="w-6 h-4" alt="Flag" src="/flags--ca.svg" />
+            {/* <img className="w-6 h-4" alt="Flag" src="/flags--ca.svg" /> */}
+            <img className="w-6 h-4" alt="Flag" src="https://flagicons.lipis.dev/flags/4x3/us.svg" />
             <span>English (USA)</span>
           </div>
         </div>
