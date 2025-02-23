@@ -20,7 +20,7 @@ const Hero: FunctionComponent<HeroType> = ({ className = "" }) => {
             into strategy, helping individuals and businesses build a clear path
             to financial security and success.
           </p>
-          <div className="flex flex-wrap justify-center gap-4 mt-6 sm:hidden">
+          {/* <div className="flex flex-wrap justify-center gap-4 mt-6 sm:hidden">
             <Button
               showRightIcon
               showLeftIcon={false}
@@ -61,7 +61,7 @@ const Hero: FunctionComponent<HeroType> = ({ className = "" }) => {
               buttonFlex="unset"
               buttonAlignSelf="unset"
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

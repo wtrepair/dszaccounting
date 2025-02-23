@@ -12,7 +12,7 @@ const Container: FunctionComponent<ContainerType> = ({ className = "" }) => {
     >
       <div className="max-w-screen-xl flex flex-col lg:flex-row items-center gap-10">
         {/* Left Text Content */}
-        <div className="flex-1 flex flex-col items-start gap-4 px-2 md:px-4">
+        <div className="flex-1 flex flex-col items-start gap-4 px-4 md:px-8">
           <h2 className="text-13xl md:text-4xl font-extrabold text-gray-900 leading-tight">
             Protect Your Wealth with Strategic Investment & Retirement Planning
           </h2>
