@@ -23,7 +23,7 @@ const Services: FunctionComponent<ServicesType> = ({ className = "" }) => {
         "
         >
           {/* Section 1 - Personal Income Tax Preparation */}
-          <div className="flex flex-col lg:flex-row items-center justify-between gap-8 w-full">
+          <div className="flex flex-col lg:flex-row items-center justify-between gap-8 w-full" data-scroll-to="PersonalIncomeTaxPreparation">
             <img
               className="w-full lg:w-[50%] h-auto object-cover"
               src="/collagefinancebannerconcept-1@2x.png"
@@ -69,7 +69,7 @@ const Services: FunctionComponent<ServicesType> = ({ className = "" }) => {
           </div>
 
           {/* Section 2 - Bookkeeping Support */}
-          <div className="flex flex-col lg:flex-row-reverse items-center justify-between gap-8 w-full">
+          <div className="flex flex-col lg:flex-row-reverse items-center justify-between gap-8 w-full" data-scroll-to="AccountingPayrollandTaxes">
             <img
               className="w-full lg:w-[50%] h-auto object-cover"
               src="/collagefinancebannerconcept-2@2x.png"
@@ -105,7 +105,7 @@ const Services: FunctionComponent<ServicesType> = ({ className = "" }) => {
           </div>
 
           {/* Section 3 - Business Services */}
-          <div className="flex flex-col lg:flex-row items-center justify-between gap-8 w-full">
+          <div className="flex flex-col lg:flex-row items-center justify-between gap-8 w-full" data-scroll-to="BusinessServices">
             <img
               className="w-full lg:w-[50%] h-auto object-cover"
               src="/coins.jpg"
@@ -185,7 +185,7 @@ const Services: FunctionComponent<ServicesType> = ({ className = "" }) => {
           </div>
 
           {/* Section 4 - Financial Year End and Audit Readiness */}
-          <div className="flex flex-col lg:flex-row items-center justify-between gap-8 w-full">
+          <div className="flex flex-col lg:flex-row items-center justify-between gap-8 w-full" data-scroll-to="FinancialYearEnd">
             <div className="w-full lg:w-[50%] flex flex-col items-start justify-start">
               <h2 className="text-xl md:text-2xl lg:text-3xl font-extrabold">
                 Financial Year End and Audit Readiness
@@ -213,7 +213,7 @@ const Services: FunctionComponent<ServicesType> = ({ className = "" }) => {
           </div>
 
           {/* Section 5 - Business Planning & Advisory */}
-          <div className="flex flex-col lg:flex-row-reverse items-center justify-between gap-8 w-full">
+          <div className="flex flex-col lg:flex-row-reverse items-center justify-between gap-8 w-full" data-scroll-to="BusinessPlanning">
             <div className="w-full lg:w-[50%] flex flex-col items-start justify-start">
               <h2 className="text-xl md:text-2xl lg:text-3xl font-extrabold">
                 Business Planning & Advisory
@@ -245,7 +245,7 @@ const Services: FunctionComponent<ServicesType> = ({ className = "" }) => {
           </div>
 
           {/* Section 6 - Legacy Planning and Business Valuations */}
-          <div className="flex flex-col lg:flex-row items-center justify-between gap-8 w-full">
+          <div className="flex flex-col lg:flex-row items-center justify-between gap-8 w-full" data-scroll-to="LegacyPlanning">
             <div className="w-full lg:w-[50%] flex flex-col items-start justify-start">
               <h2 className="text-xl md:text-2xl lg:text-3xl font-extrabold">
                 Legacy Planning and Business Valuations
