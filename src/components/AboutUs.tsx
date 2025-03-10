@@ -14,7 +14,7 @@ const AboutUs: FunctionComponent<AboutUsType> = ({ className = "" }) => {
 
       {/* Description */}
       <p className="max-w-3xl text-lg text-gray-500 text-center leading-relaxed">
-        With 30 years of accounting experience spanning multiple industries, Mr. Dinesh Singh has acquired exceptional expertise in a variety of service areas related to both corporate and personal accounting and taxation.
+        With 30 years of accounting experience spanning multiple industries across the United States, Mr. Dinesh Singh has acquired exceptional expertise in a variety of service areas related to both corporate and personal accounting and US taxation.
       </p>
 
       {/* Stats Section */}
