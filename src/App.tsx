@@ -5,7 +5,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import Button3 from "./components/Button3";
+import DineshCPA from "./components/DineshCPA";
 
 function App() {
   const action = useNavigationType();
@@ -45,7 +45,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<Button3 />} />
+      <Route path="/" element={<DineshCPA />} />
     </Routes>
   );
 }

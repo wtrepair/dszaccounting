@@ -123,10 +123,9 @@ const Services: FunctionComponent<ServicesType> = ({ className = "" }) => {
                 <ul className="list-disc pl-6">
                   <li>
                     <b>Business Incorporation</b> – We offer a wide range of
-                    business registration services, in both the U.S and Canada,
-                    including U.S. entity formation (LLC, S-Corp, C-Corp),
-                    Ontario and Canada incorporations, and NUANS (Name Search)
-                    to help you secure the right business name.
+                    business registration services in the United States,
+                    including entity formation (LLC, S-Corp, C-Corp) and
+                    business name registration to help you secure the right business name.
                   </li>
                   <li>
                     <b>Business Consulting</b> – As a commercially focused
@@ -145,31 +144,26 @@ const Services: FunctionComponent<ServicesType> = ({ className = "" }) => {
                     opportunities.
                   </li>
                   <li>
-                    <b>Return Filing</b> – Proper tax Our team offers expert
-                    assistance in both U.S. and Canadian tax filings, including:
+                    <b>Return Filing</b> – Our team offers expert
+                    assistance in U.S. tax filings, including:
                     <ul className="list pl-6">
                       <li>
-                        U.S. Corporate Tax (Form 1120) / Canadian Corporate Tax
-                        (T2)
+                        U.S. Corporate Tax (Form 1120)
                       </li>
                       <li>
-                        U.S. Individual Tax (Form 1040) / Canadian Personal Tax
-                        (T1)
+                        U.S. Individual Tax (Form 1040)
                       </li>
                       <li>
-                        U.S. Sales & Use Tax Compliance / Canadian HST Returns
+                        U.S. Sales & Use Tax Compliance
                       </li>
                       <li>
-                        U.S. Workers’ Compensation Filings (State-Specific) /
-                        Canadian WSIB Filings
+                        U.S. Workers' Compensation Filings (State-Specific)
                       </li>
                       <li>
-                        U.S. Payroll Tax Filings (Federal & State) / Canadian
-                        EHT Returns
+                        U.S. Payroll Tax Filings (Federal & State)
                       </li>
                       <li>
-                        U.S. Payroll Reporting (W-2, 1099 Forms) / Canadian
-                        Annual Payroll Returns (T4/T5)
+                        U.S. Payroll Reporting (W-2, 1099 Forms)
                       </li>
                     </ul>
                   </li>
@@ -195,8 +189,8 @@ const Services: FunctionComponent<ServicesType> = ({ className = "" }) => {
                 deadlines—it’s about ensuring accuracy, compliance, and
                 strategic planning for the future. At DSZ Accounting and Tax Consultants, we provide
                 expert tax compliance and advisory services, ensuring full
-                adherence to IRS (U.S.) and CRA (Canada) regulations. Whether
-                you operate domestically or across borders, we help businesses
+                adherence to IRS regulations. Whether
+                you operate in a single state or across multiple states, we help businesses
                 stay ahead of tax laws while optimizing financial efficiency.
                 Our in-depth analysis helps you close the year with confidence
                 and set the stage for continued growth.

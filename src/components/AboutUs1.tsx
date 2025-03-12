@@ -32,10 +32,9 @@ const AboutUs1: FunctionComponent<AboutUs1Type> = ({ className = "" }) => {
           <p className="text-lg leading-relaxed">
             With over 30 years of accounting experience across multiple
             industries, <b>DSZ Accounting and Tax Consultants</b> provides expert financial services to
-            both corporate and personal clients in Canada and the United States.
-            With offices on both sides of the border, our firm specializes in
-            cross-border taxation, helping businesses and individuals navigate
-            complex financial regulations seamlessly.
+            both corporate and personal clients throughout the United States.
+            Our firm specializes in helping businesses and individuals navigate
+            complex financial regulations and tax laws seamlessly.
             <br />
             At <b>DSZ Accounting and Tax Consultants</b>, strategy is at the core of everything we do.
             Our team takes a broad, forward-thinking approach to analyzing each
