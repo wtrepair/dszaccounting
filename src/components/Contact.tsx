@@ -31,8 +31,8 @@ const Contact: FunctionComponent<ContactType> = ({ className = "" }) => {
           </div>
           <h3 className="font-semibold mt-4">Address</h3>
           <p className="text-gray-500 text-sm">
-            500 W. Silver Spring Drive, Suite K200,
-            <br /> Glendale, Wisconsin 53217
+            5600 N River Road Suite 800
+            <br /> Rosemont IL 60018
           </p>
         </div>
         <div className="flex flex-col items-center">
